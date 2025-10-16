@@ -1,0 +1,41 @@
+/* personalizações do template 💜💚 */
+
+/* cor de fundo */
+body {
+    background: linear-gradient(135deg, #c4f8c0, #d5c4f8) !important;
+}
+
+/* textos */
+h1, h2, p {
+    color: #3b2f66;
+}
+
+/* links e botões */
+a, input[type="submit"] {
+    color: white !important;
+    background-color: #4b387f !important;
+    border: none;
+    transition: 0.3s;
+}
+
+a:hover, input[type="submit"]:hover {
+    background-color: #3aa66b !important;
+}
+
+/* foto do perfil */
+#home img {
+    border-radius: 50%;
+    border: 3px solid rgba(75, 56, 127, 0.4);
+    box-shadow: 0 0 10px rgba(75, 56, 127, 0.4);
+}
+
+/* mensagem de sucesso */
+.mensagem-status {
+    background: rgba(58,166,107,0.2);
+    color: #4b387f;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 8px;
+    text-align: center;
+    margin-top: 20px;
+}
